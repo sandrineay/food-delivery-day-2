@@ -1,0 +1,47 @@
+ConditionalAssignment:
+  Enabled: false
+StringLiterals:
+  Enabled: false
+TrailingBlankLines:
+  Enabled: false
+LineLength:
+  Max: 120
+UnusedMethodArgument:
+  Enabled: false
+EmptyLines:
+  Enabled: false
+RedundantReturn:
+  Enabled: false
+SelfAssignment:
+  Enabled: false
+Documentation:
+  Enabled: false
+RegexpLiteral:
+  Enabled: false
+GuardClause:
+  Enabled: false
+WordArray:
+  Enabled: false
+SymbolProc:
+  Enabled: false
+AbcSize:
+  Enabled: false
+MutableConstant:
+  Enabled: false
+SignalException:
+  Enabled: false
+Casecmp:
+  Enabled: false
+CyclomaticComplexity:
+  Enabled: false
+MethodMissingSuper:
+  Enabled: false
+MissingRespondToMissing:
+  Enabled: false
+Security/Open:
+  Enabled: false
+
+AllCops:
+  Exclude:
+    - '**/Rakefile'
+    - '**/spec/**/*'
